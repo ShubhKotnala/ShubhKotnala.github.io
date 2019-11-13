@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+   /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+.centerAlign{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: .8rem;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: .5rem;
+    margin: 2rem 1rem;
+    background: #ff0066;
+}
